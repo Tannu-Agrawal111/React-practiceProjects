@@ -59,9 +59,11 @@ const EffectHook = () => {
 
   return (
     <div>
+      <h1>useeffect hook</h1>
       <button onClick={()=>{setCount(count+1)}}>inc</button>
       <button onClick={()=>{setseccount(seccount+1)}}>inc</button>
-      <hr />
+      <br /> <br />
+      <hr /> 
     </div>
   )
 }

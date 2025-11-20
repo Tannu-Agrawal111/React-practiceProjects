@@ -5,6 +5,8 @@ import ToggleText from "./components/ToggleText"
 import EffectHook from "./components/useEffectHook";
 import CharacterCounter from "./components/CharacterCounter";
 import Fetch from "./components/Fetch";
+import LoginForm from "./components/LoginForm"
+import UncontrolledForm from "./components/UncontrolledComponents";
 
 function App() {
   
@@ -17,6 +19,8 @@ function App() {
       <EffectHook></EffectHook>
       <CharacterCounter></CharacterCounter>
       <Fetch></Fetch>
+      <LoginForm></LoginForm>
+      <UncontrolledForm></UncontrolledForm>
     </>
   )
 }

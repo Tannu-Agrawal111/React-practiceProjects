@@ -14,7 +14,7 @@ const Fetch = () => {
 
   return (
     <div>
-      <h1>hello</h1>
+      <h1>api + hook</h1>
       {data && <p>My name is {data.name} and id is {data.id}</p>}
     </div>
   )

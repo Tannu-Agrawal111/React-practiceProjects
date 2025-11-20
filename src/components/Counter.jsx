@@ -21,7 +21,7 @@ function Counter(){
             <button>{count}</button>
             <button onClick={()=>{increase()}}>inc</button>
             <button onClick={()=>{decrease()}}>dec</button>
-            <hr />
+            <br /><br /><hr />
         </div>
     )
 }

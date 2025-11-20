@@ -19,12 +19,13 @@ const CharacterCounter = () => {
 
   return (
     <div>
+      <h1>count character</h1>
         <h3>count of text is {text.length}</h3>
       <label htmlFor="text">Enter text</label>
         <input type="text" value={text} onChange={(e)=>{handleChange(e)}}/>
         <br /><br />
         <button onClick={()=>{setCount(count+1)}}>increment cnt</button>
-        <hr />
+        <br /><br /><hr /> 
     </div>
   )
 }
