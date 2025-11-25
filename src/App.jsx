@@ -7,6 +7,9 @@ import CharacterCounter from "./components/CharacterCounter";
 import Fetch from "./components/Fetch";
 import LoginForm from "./components/LoginForm"
 import UncontrolledForm from "./components/UncontrolledComponents";
+import UserefHook from "./components/UserefHook"
+import Stopwatch from "./components/StopWatch"
+import MemoHook from "./components/UseMemoHook"
 
 function App() {
   
@@ -21,6 +24,9 @@ function App() {
       <Fetch></Fetch>
       <LoginForm></LoginForm>
       <UncontrolledForm></UncontrolledForm>
+      <UserefHook></UserefHook>
+      <Stopwatch></Stopwatch>
+      <MemoHook></MemoHook>
     </>
   )
 }
